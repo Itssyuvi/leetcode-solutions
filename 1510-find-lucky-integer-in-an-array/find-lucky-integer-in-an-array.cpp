@@ -12,7 +12,7 @@ public:
          }
      
 
-    // Count frequency of each element
+  
     for (int i = 0; i < n; i++) {
        if(arr[i]==freq[arr[i]]){
       ans=arr[i];
