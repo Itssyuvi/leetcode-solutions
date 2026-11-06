@@ -4,7 +4,8 @@ public:
         int n=nums.size();
         int ans;
         int temp=original;
-       for(int i=0;i<n;i++){
+        sort(nums.begin(),nums.end());
+      
 
         for(int j=0;j<n;j++){
               
@@ -14,7 +15,7 @@ public:
               }
         }
 
-       }
+       
        return ans;
     }
 };
